@@ -1,0 +1,4 @@
+/* Returns orders for account IDs 1001 and 1021 */
+SELECT *
+FROM orders
+WHERE account_id IN (1001,1021);
