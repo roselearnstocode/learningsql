@@ -1,0 +1,6 @@
+/* Returns sales_rep_id EXCEPT for 321500,321570 */
+SELECT sales_rep_id,
+       name
+FROM accounts
+WHERE sales_rep_id NOT IN (321500,321570)
+ORDER BY sales_rep_id
