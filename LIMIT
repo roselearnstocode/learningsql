@@ -1,4 +1,4 @@
-### LIMIT
+/* Limit the number of data shown from the database. */
 
 SELECT occurred_at, account_id, channel
 FROM   web_events
