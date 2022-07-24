@@ -1,0 +1,6 @@
+/* This query would display 1000 orders sorted by occurred_at. */
+
+  SELECT *
+    FROM orders
+ORDER BY occurred_at
+   LIMIT 1000;
