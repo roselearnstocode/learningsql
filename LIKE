@@ -1,0 +1,4 @@
+/* Returns data for website with "google" in the URL */
+SELECT *
+FROM accounts
+WHERE website LIKE '%google%';
